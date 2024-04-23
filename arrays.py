@@ -24,3 +24,11 @@ def linear_search_in_array(arr_list, n):
             return index
     return -1
 print(linear_search_in_array([9,1,2,3,4,7,3], 3))
+
+def sum_array(arr_lis):
+    sum = 0
+    for _, elem in enumerate(arr_lis):
+        sum += elem
+    return sum
+
+print(sum_array([1,2,3,4,5]))
